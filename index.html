@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siggy AI ChatBot</title>
+</head>
+<body>
+
+    <video id="bg-video" autoplay muted loop playsinline>
+    <source src="bg.mp4" type="video/mp4">
+</video>
+
+<div class="app">
+<header>
+    <h2 class="logo">
+    <img src="siggy.png" class="logo-img"> Siggy AI
+    </h2>
+</header>
+
+<div id="chat-box"></div>
+
+<div class="input-area">
+        <input id="user-input" placeholder="Ask Siggy...">
+        <button class="send-btn" onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
